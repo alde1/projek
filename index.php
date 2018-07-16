@@ -1,7 +1,7 @@
 <?php
 // memanggil library FPDF
 require('fpdf.php');
-// intance object dan memberikan pengaturan halaman PDF
+// intance object dan memberikan pengaturan halaman PDF edit
 $pdf = new FPDF('l','mm','A5');
 // membuat halaman baru
 $pdf->AddPage();
